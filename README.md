@@ -94,3 +94,18 @@ Import `postman/WeatherHub.postman_collection.json` into Postman. The collection
 - Weather units are metric; wind is in metres/second, visibility is kilometres, and temperatures are Celsius.
 - The forecast endpoint returns normalized forecast entries from OpenWeather. The frontend groups those real three-hour readings by day and displays up to five days.
 - Keep `FLASK_DEBUG=false` outside local development. Replace the development-only fallback secret with a long random value in your environment.
+
+
+## Screenshots
+
+### Weather Dashboard
+![Weather Dashboard](Screenshots/dashboard.png)
+
+### City Search
+![City Search](Screenshots/city-search.png)
+
+### Forecast View
+![Forecast View](Screenshots/Forecast-view.png)
+
+### Favourite Cities
+![Favourite Cities](Screenshots/favourite-cities.png)
